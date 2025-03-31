@@ -1,0 +1,15 @@
+learning_rate: 0.001
+momentum: 0.9
+num_hidden: 2
+sizes: 128,64
+activation: relu
+loss: ce
+opt: adam
+batch_size: 64
+num_epochs: 50
+anneal: False
+path_save_dir: models/
+expt_dir: logs/
+to_pretrain: False
+epoch_to_restore: 0
+to_test: True
